@@ -1,0 +1,258 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url(../assets/bg.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    color: white;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.main{
+    height:100vh;
+}
+.typing{
+    position: relative;
+}
+
+
+.blinking-cursor {
+    animation: blink .5s infinite ease;
+}
+
+@keyframes blink {
+    0%{ 
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.about-me {
+    background-color: rgb(0, 3, 40);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.picture{
+    padding: 25px 0px 25px 0px;
+}
+.description{
+    padding: 60px 30px 0px 0px;
+    color: #1ed760;
+}
+.image{
+    background-color: lightgray;
+}
+
+    .image:hover {
+        background-color: #1ed760;
+        transition: .5s ease;
+    }
+
+.social{
+    padding-top: 50px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
+}
+.fa-github {
+    background: #ffffff;
+    color: #333;
+}
+
+.kslc {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/kslc.png);
+    background-size: cover;
+    height: 50vh;
+    background-position: center center;
+    color: transparent;
+    
+}
+    .kslc:hover {
+        background: linear-gradient(rgba(30, 30, 0, 0.9), rgba(30, 30, 0, 0.9)), url(../assets/kslc.png);
+        background-size: cover;
+        background-position: center center;
+        color: white;
+        transition: 3s ease;
+    }
+.ttsweather {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/ttsweather.png);
+    background-size: cover;
+    height: 50vh;
+    background-position: center center;
+    color: transparent;
+}
+.ttsweather:hover {
+    background: linear-gradient(rgba(30, 30, 0, 0.9), rgba(30, 30, 0, 0.9)), url(../assets/ttsweather.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    transition: 3s ease;
+}
+.clima {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/clima.png);
+    background-size: cover;
+    height: 50vh;
+    background-position: center center;
+    color: transparent;
+}
+.clima:hover {
+    background: linear-gradient(rgba(30, 30, 0, 0.5), rgba(30, 30, 0, 0.5)),url(../assets/clima.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    transition: 3s ease;
+}
+.bitup {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/bitup.png);
+    background-size: cover;
+    height: 50vh;
+    background-position: inherit center;
+    color: transparent;
+}
+.bitup:hover {
+    background: linear-gradient(rgba(30, 30, 0, 0.9), rgba(30, 30, 0, 0.9)), url(../assets/bitup.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    transition: 3s ease;
+}
+.todo {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/todo.png);
+    background-size: cover;
+    height: 50vh;
+    background-position: center center;
+    color: transparent;
+}
+.todo:hover {
+    background: linear-gradient(rgba(30, 30, 0, 0.9), rgba(30, 30, 0, 0.9)), url(../assets/todo.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    transition: 3s ease;
+}
+.colorforkids {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/colorgame.png);
+    background-size: cover;
+    height: 50vh;
+    background-position: center center;
+    color: transparent;
+}
+.colorforkids:hover {
+    background: linear-gradient(rgba(30, 30, 0, 0.9), rgba(30, 30, 0, 0.9)), url(../assets/colorgame.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    transition: 3s ease;
+}
+
+.resume{
+    text-align: center;
+    padding: 60px;
+    background-color: white;
+}
+
+/*button*/
+.button {
+    background-color: #1ed760; /* Green */
+    border: none;
+    color: #2d46b9;
+    padding: 16px 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+
+
+    .button:hover {
+        background-color: white;
+    }
+span {
+    
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+    .button:nth-child(1) {
+        box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+        color: #6f6cde;
+    }
+    .button:hover{
+        opacity: 0.3;
+        box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+
+    }
+    .button:active {
+        opacity: 1;
+        box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5), inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+        color: #79e3b6;
+    }
+
+.contact {
+    background-color: black;
+    text-align: center;
+}
+
+hr.line {
+    border-top: 2px solid red;
+    box-shadow: 4px 4px 7px red;
+    width: 10%;
+}
+
